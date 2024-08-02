@@ -1,0 +1,362 @@
+.Nav-Section {
+  width: 100%;
+  height: 100%;
+  opacity: var(--sds-size-stroke-border);
+  background: var(--Shade-White, #fff);
+
+  /* shadow-sm */
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.04);
+}
+
+.Nav-MainNav {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  height: 100%;
+  padding: 22px 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Nav-Items-Section {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20.3px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.Nav-Button-Section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.NavButton-SignUp {
+  display: flex;
+  height: 40px;
+  padding: 8px 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: var(--Primary-Color-Primary-Color-primary-color-500, #b6551c);
+
+  color: var(--Shade-White, #fff);
+  text-align: center;
+  font-feature-settings: "cv01" on, "cv03" on, "cv04" on;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 145%; /* 20.3px */
+
+  cursor: pointer;
+}
+
+.NavButton-Login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.Logo-Image {
+  width: 175px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.Nav-PickList-Section {
+  display: none;
+}
+
+.NavMobile-DropDown {
+  width: 100%;
+  height: 100%;
+  min-height: 200px;
+  margin-top: 5px;
+}
+
+.NavMobile-ListItems {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.NavMobile-ItemsBody {
+  width: 100%;
+  height: 60px;
+  margin-top: 20px;
+  color: var(--Grey-900, #101928);
+  text-align: center;
+  font-feature-settings: "cv01" on, "cv03" on, "cv04" on;
+  align-items: center;
+  display: flex;
+  padding-left: 20px;
+
+  /* Paragraph/Small/Semibold */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 145%; /* 20.3px */
+}
+
+.NavMobile-ItemsBody:hover {
+  width: 100%;
+  height: 60px;
+  margin-top: 20px;
+  color: var(--Grey-900, #feffff);
+  text-align: center;
+  font-feature-settings: "cv01" on, "cv03" on, "cv04" on;
+  align-items: center;
+  display: flex;
+  padding-left: 20px;
+  background-color: rgba(111, 109, 109, 0.671);
+  cursor: pointer;
+
+  /* Paragraph/Small/Semibold */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 145%; /* 20.3px */
+}
+
+.NavButton-Mobile-Login {
+  width: 90%;
+  max-width: 600px;
+  min-width: 320px;
+  display: flex;
+  margin: auto;
+  height: 20px;
+  padding: 8px 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 8px;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  color: var(--Primary-Color-Primary-Color-primary-color-500, #b6551c);
+  text-align: center;
+  font-feature-settings: "cv01" on, "cv03" on, "cv04" on;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 145%; /* 20.3px */
+  cursor: pointer;
+}
+
+.NavButton-Mobile-SignUp {
+  width: 90%;
+  max-width: 600px;
+  min-width: 320px;
+  display: flex;
+  margin: auto;
+  height: 40px;
+  padding: 8px 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 8px;
+  background: var(--Primary-Color-Primary-Color-primary-color-500, #b6551c);
+
+  color: var(--Shade-White, #fff);
+  text-align: center;
+  font-feature-settings: "cv01" on, "cv03" on, "cv04" on;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 145%; /* 20.3px */
+  cursor: pointer;
+}
+
+.Nav-LoggedIn-Button-Section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.LoggedIn-NavBar-AvatarDiv {
+  width: 80px;
+  height: 40px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 29px;
+  border: 1px solid rgb(169, 163, 163);
+  opacity: var(--sds-size-stroke-border);
+  background: var(--Shade-01, #fff);
+}
+
+.LoggedIn-NavBAr-PickList img {
+  width: 29px;
+  height: 29px;
+  margin-top: 2px;
+}
+
+.LoggedIn-NavBAr-Avatar img {
+  width: 32px;
+  height: 32px;
+}
+
+.LoggedIn-NavBar-DropDown {
+  width: 180px;
+  min-height: 160px;
+  padding-bottom: 5px;
+  max-height: 200px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  margin-top: 230px;
+  margin-right: 150px;
+  border-radius: 10px;
+  border: var(--sds-size-stroke-border) solid #e4e7eb;
+  opacity: var(--sds-size-stroke-border);
+  background: #fff;
+  box-shadow: 0px 26px 7px 0px rgba(0, 0, 0, 0),
+    0px 16px 7px 0px rgba(0, 0, 0, 0.01), 0px 9px 6px 0px rgba(0, 0, 0, 0.05),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.09), 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+.LoggedIn-NavBar-DropDiv {
+  width: 100%;
+  height: 100%;
+  margin: 10px 0px;
+}
+
+.LoggedIn-NavBarDrop-Item {
+  width: 100%;
+  margin: auto;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+.LoggedIn-NavBarDrop-Item:hover {
+  background-color: rgba(85, 84, 84, 0.671);
+  color: #eff5f5;
+  border-radius: 4px;
+}
+
+.LoggedIn-NavBarDrop-Item img {
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+}
+
+.LoggedIn-NavBarDrop-Item p {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px; /* 133.333% */
+  letter-spacing: -0.24px;
+}
+
+.LogOutDisappear {
+  display: block;
+}
+
+.LogoutAppear {
+  display: none;
+}
+
+@media screen and (max-width: 970px) {
+  .Nav-MainNav {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    height: 100%;
+    padding: 22px 0px;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Nav-MainNav {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    height: 100%;
+    padding: 22px 0px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .Nav-PickList-Section {
+    display: block;
+    width: 40px;
+  }
+
+  .Nav-PickList-Section img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+
+  .Nav-Button-Section,
+  .Nav-Items-Section {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .LogOutDisappear {
+    display: none;
+  }
+
+  .LogoutAppear {
+    width: 100%;
+    margin: auto;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    margin-top: 10px;
+  }
+
+  .LoggedIn-NavBar-DropDown {
+    width: 180px;
+    min-height: 160px;
+    padding-bottom: 5px;
+    max-height: 200px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-top: 250px;
+    margin-right: 150px;
+    border-radius: 10px;
+    border: var(--sds-size-stroke-border) solid #e4e7eb;
+    opacity: var(--sds-size-stroke-border);
+    background: #fff;
+    box-shadow: 0px 26px 7px 0px rgba(0, 0, 0, 0),
+      0px 16px 7px 0px rgba(0, 0, 0, 0.01), 0px 9px 6px 0px rgba(0, 0, 0, 0.05),
+      0px 4px 4px 0px rgba(0, 0, 0, 0.09), 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+  }
+}

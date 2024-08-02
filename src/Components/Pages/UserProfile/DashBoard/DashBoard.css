@@ -1,0 +1,126 @@
+.DashBoard-MainSection {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.DashBoard-HeaderItems {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  height: 100%;
+  padding-bottom: 10px;
+  margin-top: 40px;
+}
+
+.DashBoard-HeaderItems-H1 h1 {
+  color: #000;
+  text-align: center;
+
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 128.571% */
+  letter-spacing: -1.12px;
+}
+
+.DashBoard-Header-Buttons {
+  display: flex;
+}
+
+.DashBoard-Header-CreateProduct {
+  width: auto 181px;
+  height: 50px;
+  display: flex;
+  padding: 10px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: var(--Primary-Color-Primary-Color-primary-color-500, #b6551c);
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.DashBoard-Header-ViewBusiness {
+  width: auto 219px;
+  height: 50px;
+  display: flex;
+  padding: 10px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid
+    var(--Primary-Color-Primary-Color-primary-color-500, #b6551c);
+  cursor: pointer;
+}
+
+.DashBoard-Header-CreateProduct p {
+  margin-right: 1px;
+
+  color: var(--Shade-White, #fff);
+  text-align: center;
+  font-feature-settings: "cv01" on, "cv03" on, "cv04" on;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 145%; /* 23.2px */
+}
+
+.DashBoard-Header-ViewBusiness p {
+  margin-right: 1px;
+
+  color: var(--Primary-Color-Primary-Color-primary-color-500, #b6551c);
+  text-align: center;
+  font-feature-settings: "cv01" on, "cv03" on, "cv04" on;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 145%; /* 23.2px */
+}
+
+.DashBoard-Table-MainSection {
+  width: 86%;
+  margin: auto;
+  height: 100%;
+  min-height: 100vh;
+  background-color: #b6551c;
+}
+
+@media screen and (max-width: 650px) {
+  .DashBoard-HeaderItems {
+    width: 90%;
+    display: block;
+    justify-content: space-between;
+    margin: auto;
+    height: 100%;
+    padding-bottom: 10px;
+    margin-top: 40px;
+  }
+  .DashBoard-HeaderItems-H1 h1 {
+    color: #000;
+    text-align: left;
+
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 128.571% */
+    letter-spacing: -1.12px;
+  }
+
+  .DashBoard-Header-Buttons {
+    display: block;
+  }
+
+  .DashBoard-Header-CreateProduct {
+    margin: auto;
+    margin-top: 25px;
+  }
+
+  .DashBoard-Header-ViewBusiness {
+    margin: auto;
+    margin-top: 15px;
+  }
+}

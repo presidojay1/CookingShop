@@ -1,0 +1,17 @@
+.Login-ForgetPassword {
+  color: #b6551c;
+  width: 130px;
+  cursor: pointer;
+  margin: auto;
+  margin-right: 1px;
+  margin-top: 5px;
+  margin-bottom: -10px;
+
+  /* Label/Medium */
+  font-family: Geist;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.32px;
+}

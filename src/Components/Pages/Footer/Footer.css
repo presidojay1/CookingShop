@@ -1,0 +1,126 @@
+.Footer-Section {
+  width: 85%;
+  margin: auto;
+  height: 350px;
+
+  border-radius: var(--space-9, 24px);
+  opacity: var(--sds-size-stroke-border);
+  background: #e4e7eb;
+}
+
+.Footer-FlexSection {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+  padding-top: 70px;
+}
+
+.Footer-FirstFlex {
+  display: flex;
+}
+
+.Footer-FirstFlex img {
+  width: 150px;
+  height: 34.286px;
+  flex-shrink: 0;
+}
+
+.Footer-Flex-BesideLogo {
+  margin-left: 15px;
+}
+
+.Footer-Flex-ContactDetails {
+  width: 280px;
+
+  color: #000;
+
+  /* Label/Large */
+  font-family: Geist;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 155.556% */
+  letter-spacing: -0.36px;
+}
+
+.Number-Footer-Div {
+  margin-top: 100px;
+}
+
+.Number-Footer-Div p {
+  color: #000;
+  font-family: Geist;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  letter-spacing: -0.28px;
+  text-decoration-line: underline;
+  margin-bottom: 15px;
+}
+
+.Footer-Second {
+  width: 150px;
+}
+
+.Route-Footer-Div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.Route-Footer-Div p {
+  color: var(--Background-background-inverse-secondary, #444f5f);
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  letter-spacing: -0.36px;
+}
+
+@media screen and (max-width: 970px) {
+  .Footer-Section {
+    width: 99%;
+    margin: auto;
+    height: 350px;
+
+    border-radius: var(--space-9, 24px);
+    opacity: var(--sds-size-stroke-border);
+    background: #e4e7eb;
+  }
+
+  .Footer-FlexSection {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 70px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .Footer-Section {
+    width: 99%;
+    margin: auto;
+    height: 350px;
+
+    border-radius: var(--space-9, 24px);
+    opacity: var(--sds-size-stroke-border);
+    background: #e4e7eb;
+
+    display: none;
+  }
+
+  .Footer-FlexSection {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 70px;
+  }
+}

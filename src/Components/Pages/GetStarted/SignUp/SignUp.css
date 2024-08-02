@@ -1,0 +1,309 @@
+.SignUp-Section {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.SignUp-Desktop-Section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.SignUp-FrameImage-Section {
+  width: 100%;
+  height: 100%;
+  min-width: 700px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: background-image 0.5s ease-in-out;
+  /* Ensure the background images have the same height */
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.SignUp-FrameImage-TopFrames {
+  width: 99%;
+  height: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.SignUp-FrameImage-Div {
+  max-width: 221px;
+  min-width: 200px;
+  width: 99%;
+  height: 209px;
+  flex-shrink: 1;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: background-image 0.5s ease-in-out;
+  /* Ensure the background images have the same height */
+  background-repeat: no-repeat;
+}
+
+.SignUp-FrameImage-BottomFooter {
+  width: 95%;
+  height: 100%;
+  margin-top: 1px;
+
+  flex-shrink: 0;
+  opacity: var(--sds-size-stroke-border);
+  background: var(
+    --gradient-white,
+    linear-gradient(180deg, #e4e7eb 0%, #f1f3f6 103.57%)
+  );
+  padding: 20px;
+  padding-top: 40px;
+}
+
+.SignUp-FrameImage-BottomFooterImg img {
+  width: 125px;
+  height: 30px;
+}
+
+.SignUp-FrameImage-BottomFooterH1 {
+  margin: 40px 0px;
+  width: 100%;
+  max-width: 600px;
+  color: #141b34;
+
+  /* Display/XSmall */
+  font-family: Geist;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px; /* 122.222% */
+  letter-spacing: -1.44px;
+}
+
+.SignUp-FrameImage-BottomFooterP {
+  margin: 20px 0px;
+  margin-top: 80px;
+  width: 100%;
+  max-width: 650px;
+  color: #141b34;
+
+  color: var(--Content-content-secondary, #4c596c);
+  font-family: "Geist Mono";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 127.273% */
+}
+
+.SignUp-BoxSection {
+  width: 1000px;
+  margin-top: 150px;
+}
+
+.Sign-CardBox {
+  width: 457px;
+  padding-bottom: 15px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 0.25px solid rgba(217, 217, 217, 0.85);
+  opacity: var(--sds-size-stroke-border);
+  background: #fff;
+  margin: auto;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.04);
+}
+
+.Sign-CardBox-Section {
+  width: 95%;
+  margin: auto;
+}
+
+.Sign-CardHeading {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.Sign-CardHeading h5 {
+  color: #000;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px; /* 128.571% */
+  letter-spacing: -1.12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.Sign-CardHeading p {
+  color: var(--Content-content-secondary, #4c596c);
+  text-align: center;
+  /* MonoParagraph/Small */
+  font-family: "Geist Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}
+
+.Sign-Card-InputDivs {
+  width: 375px;
+  height: 58px;
+  padding: 8px 16px;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--Grays-Gray-2, #aeaeb2);
+  margin: auto;
+  margin-top: 20px;
+}
+
+.Sign-Card-InputDivs p {
+  color: var(--Grays-Gray-5---Dark, #2c2c2ecb);
+  font-feature-settings: "liga" off, "clig" off;
+
+  /* Footnote/Regular */
+  font-family: "SF Pro";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px; /* 138.462% */
+  letter-spacing: -0.4px;
+  opacity: var(--sds-size-stroke-border);
+}
+
+.Sign-CardInputDivs-Input {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 30px;
+}
+
+.Sign-Card-Button {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  width: 370px;
+  padding: 16px 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #b6551c;
+
+  color: var(--Shade-White, #fff);
+  text-align: center;
+  font-feature-settings: "cv01" on, "cv03" on, "cv04" on;
+
+  /* Paragraph/Medium/Semibold */
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 145%; /* 23.2px */
+}
+
+.Sign-Card-AlreadyHave {
+  display: flex;
+  width: 260px;
+  margin: auto;
+  justify-content: center;
+}
+
+.Card-HaveAccount {
+  color: #000;
+  text-align: center;
+  font-feature-settings: "cv01" on, "cv03" on, "cv04" on;
+
+  /* Paragraph/Medium/Semibold */
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 145%; /* 23.2px */
+}
+
+.Card-SignIn {
+  opacity: var(--sds-size-stroke-border);
+  color: #b6551c;
+  font-feature-settings: "cv01" on, "cv03" on, "cv04" on;
+
+  /* Paragraph/Medium/Semibold */
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 145%;
+  cursor: pointer;
+}
+
+.PasswordStrength-Container {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: -6px;
+  padding-left: 15px;
+}
+
+/* Password strength bar */
+.PasswordStrength-Bar {
+  width: 79px;
+  height: 8px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  opacity: var(--sds-size-stroke-border);
+  background: grey; /* Default color for weak passwords */
+  margin-right: 5px; /* Space between bars */
+}
+
+/* Text for password strength */
+.PasswordStrength-Text {
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.Empty-Password {
+  background: #b6b7b681;
+}
+
+/* Green color for strong passwords */
+.Strong-Password {
+  background: var(--Green-600, #0d8e5a);
+}
+
+/* Light green color for good passwords */
+.Good-Password {
+  background: #7ed321; /* Light green */
+}
+
+/* Red color for weak passwords */
+.Weak-Password {
+  background: red;
+}
+
+/* Additional styles for password strength text */
+.Text-Strong {
+  color: var(--Green-600, #0d8e5a);
+}
+
+.Text-Good {
+  color: #7ed321;
+}
+
+.Text-Weak {
+  color: red;
+}
+
+@media screen and (max-width: 1160px) {
+  .SignUp-FrameImage-Section {
+    display: none;
+  }
+
+  .SignUp-BoxSection {
+    width: 100%;
+    margin-top: 80px;
+  }
+}
